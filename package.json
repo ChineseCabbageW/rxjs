@@ -1,0 +1,22 @@
+{
+  "name": "rxjs",
+  "version": "1.0.0",
+  "description": "rxjs 基本知识",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChineseCabbageW/rxjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChineseCabbageW/rxjs/issues"
+  },
+  "dependencies": {
+    "rxjs": "^5.1.0"
+  },
+  "homepage": "https://github.com/ChineseCabbageW/rxjs#readme"
+}
