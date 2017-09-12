@@ -1,5 +1,5 @@
-# Created by .ignore support plugin (hsz.mobi)
-node_modules
-dist
+
 .idea/watcherTasks.xml
-dist/
+
+node_modules/
+webpack.config.js

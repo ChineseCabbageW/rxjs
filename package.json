@@ -1,30 +1,37 @@
 {
   "name": "rxjs",
   "version": "1.0.0",
-  "description": "rxjs 基本知识",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --hot --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChineseCabbageW/rxjs.git"
+    "url": "git+https://ChineseCabbageW@github.com/ChineseCabbageW/rxjs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChineseCabbageW/rxjs/issues"
   },
-  "dependencies": {
-    "lodash": "^4.17.4",
-    "rxjs": "^5.1.0"
-  },
   "homepage": "https://github.com/ChineseCabbageW/rxjs#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-latest": "^6.24.1"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.1.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.1.18",
+    "copy-webpack-plugin": "^0.2.0",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1",
+    "rxjs": "^5.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
